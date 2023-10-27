@@ -4,6 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VR Distribuidora - Produtos de Higiene e Limpeza</title>
+</head>
+<body>
+    <header>
+        <h1>VR Distribuidora</h1>
+        <p>Produtos de Higiene e Limpeza</p>
+    </header>
+
+    <div class="sub-header">
+        <button><a href="endereco.html">Endereço</a></button>
+        <button><a href="produtos.html">Produtos</a></button>
+        <button><a href="faleconosco.html">Fale Conosco</a></button>
+    </div>
+
+    <section>
+        <h2>Bem-vindo à VR Distribuidora</h2>
+        <p>Somos especializados na distribuição de produtos de higiene e limpeza, oferecendo soluções de alta qualidade para empresas e consumidores.</p>
+
+        <p>Nossa missão é fornecer produtos que atendam às necessidades de limpeza e higiene, promovendo ambientes mais saudáveis e seguros.</p>
+
+        <p>Explore nossa variedade de produtos e descubra como a VR Distribuidora pode ajudar a manter seu espaço limpo e higienizado.</p>
+
+        <img src="imagens/principal.png" alt="logo da loja" style="display: block; margin: 0 auto;">
+        <p style="text-align: center;">Email para contato: vrdistribuidor@gmail.com</p>
+
+        <h2>Conheça Nossa História</h2>
+
+        <p>Há muitos anos, uma pequena empresa de produtos de higiene e limpeza, fundada por um casal, iniciou sua jornada. Com determinação e inovação constante, eles expandiram seu portfólio e conquistaram a confiança dos clientes. Ao longo do tempo, a empresa cresceu exponencialmente, tornando-se líder no setor, focada em sustentabilidade e qualidade. Hoje, seus produtos são sinônimo de limpeza eficaz e responsabilidade ambiental, provando que o comprometimento com a excelência pode levar a um futuro brilhante.</p>
+
+        <h2>Conheça Nossa equipe</h2>
+
+        <p>A equipe da VR Distribuidora é composta por profissionais dedicados e apaixonados pelo que fazem. Nossos colaboradores, desde a equipe de vendas até os especialistas em produtos de higiene e limpeza, compartilham o compromisso de oferecer o melhor atendimento aos nossos clientes. Cada membro da equipe é treinado para fornecer orientações e soluções personalizadas, garantindo que você receba o suporte necessário para manter seu espaço limpo e seguro. Juntos, trabalhamos incansavelmente para atender às suas necessidades e superar suas expectativas, tornando a VR Distribuidora a escolha confiável para produtos de higiene e limpeza.</p>
+    </section>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -28,106 +60,27 @@
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
 
-        .product-container {
-            display: flex;
-            flex-wrap: wrap;
-            flex-direction: row;
-            justify-content: space-around;
+        .sub-header {
+            background-color: #349e7c; /* Verde escuro */
+            color: white;
+            padding: 10px 0;
+            text-align: center;
         }
 
-        .product {
-            width: 40%;
-            margin-bottom: 20px;
-            background-color: #e0f7fa;
-            padding: 10px;
-            border-radius: 8px;
-            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-            display: flex;
+        .sub-header button {
+            background-color: #4CAF50; /* Verde */
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            margin: 0 10px;
+            border-radius: 5px;
+            cursor: pointer;
         }
-
-        .product img {
-            width: 150px;
-            height: auto;
-            border-radius: 6px;
-            margin-right: 10px;
+        a {
+            color: white;
+            text-decoration: none;
         }
-
-        .product-text {
-            flex: 1;
-        }
+       
     </style>
-</head>
-<body>
-    <header>
-        <h1>VR Distribuidora</h1>
-        <p>Produtos de Higiene e Limpeza</p>
-    </header>
-
-    <section>
-        <h2>Bem-vindo à VR Distribuidora</h2>
-        <p>Somos especializados na distribuição de produtos de higiene e limpeza, oferecendo soluções de alta qualidade para empresas e consumidores.</p>
-
-        <p>Nossa missão é fornecer produtos que atendam às necessidades de limpeza e higiene, promovendo ambientes mais saudáveis e seguros.</p>
-
-        <p>Explore nossa variedade de produtos e descubra como a VR Distribuidora pode ajudar a manter seu espaço limpo e higienizado.</p>
-
-        <h2>Produtos em Destaque:</h2>
-        
-        <div class="product-container">
-            <div class="product">
-                <img src="imagens/produto1.webp" alt="Produto 1">
-                <div class="product-text">
-                    <h3>Kylo Oxy</h3>
-                    <p>Peroxido De Hidrogênio Renko 5l - Anti Mofo</p>
-                    <p>Preço: R$ 121,00</p>
-                </div>
-            </div>
-
-            <div class="product">
-                <img src="imagens/produto2.webp" alt="Produto 2">
-                <div class="product-text">
-                    <h3>Produto 2</h3>
-                    <p>Descrição do Produto 2.</p>
-                    <p>Preço: R$ 115,00</p>
-                </div>
-            </div>
-
-            <div class="product">
-                <img src="imagens/produto1.webp" alt="Produto 3">
-                <div class="product-text">
-                    <h3>Produto 3</h3>
-                    <p>Descrição do Produto 3.</p>
-                    <p>Preço: R$ 200,00</p>
-                </div>
-            </div>
-
-            <div class="product">
-                <img src="imagens/produto2.webp" alt="Produto 4">
-                <div class="product-text">
-                    <h3>Produto 4</h3>
-                    <p>Descrição do Produto 4.</p>
-                    <p>Preço: R$ 251,00</p>
-                </div>
-            </div>
-
-            <div class="product">
-                <img src="imagens/produto1.webp" alt="Produto 5">
-                <div class="product-text">
-                    <h3>Produto 5</h3>
-                    <p>Descrição do Produto 5.</p>
-                    <p>Preço: R$ 302,00</p>
-                </div>
-            </div>
-
-            <div class="product">
-                <img src="imagens/produto2.webp" alt="Produto 6">
-                <div class="product-text">
-                    <h3>Produto 6</h3>
-                    <p>Descrição do Produto 6.</p>
-                    <p>Preço: R$ 35,00</p>
-                </div>
-            </div>
-        </div>
-    </section>
 </body>
 </html>
